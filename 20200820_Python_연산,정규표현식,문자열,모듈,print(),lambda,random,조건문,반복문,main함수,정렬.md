@@ -337,7 +337,7 @@ for i in range(10,0,-1):
 >   
 >   #1~100 사이의 숫자 중 5의 배수를 출력하자
 >   e= lambda x:bool(x%5)  #5의 배수일때만 false가 나타난다 따단
->   five=[i for i in range(1,101) if not (1)]
+>   five=[i for i in range(1,101) if not e(i)]
 >   print(five)
 >   #None == null 
 >   # f=lambda x: x if(x % 5 !=0) else None
