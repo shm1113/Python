@@ -302,7 +302,7 @@ pprint.pprint(list(aggr))
 
 ## 알고리즘
 
-### 버블정령
+### 버블정렬
 
 ```python
 #-*-coding:utf-8 -*-
